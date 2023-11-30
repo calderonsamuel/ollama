@@ -27,4 +27,16 @@
   <url>
     <loc>https://calderonsamuel.github.io/ollama/reference/index.html</loc>
   </url>
+  <url>
+    <loc>https://calderonsamuel.github.io/ollama/reference/ollama-package.html</loc>
+  </url>
+  <url>
+    <loc>https://calderonsamuel.github.io/ollama/reference/ollama_list.html</loc>
+  </url>
+  <url>
+    <loc>https://calderonsamuel.github.io/ollama/reference/ollama_show_model_info.html</loc>
+  </url>
+  <url>
+    <loc>https://calderonsamuel.github.io/ollama/reference/pipe.html</loc>
+  </url>
 </urlset>
