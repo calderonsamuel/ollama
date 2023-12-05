@@ -38,6 +38,9 @@
 <li class="nav-item">
   <a class="nav-link" href="reference/index.html">Reference</a>
 </li>
+<li class="nav-item">
+  <a class="nav-link" href="news/index.html">Changelog</a>
+</li>
       </ul>
 <form class="form-inline my-2 my-lg-0" role="search">
         <input type="search" class="form-control me-sm-2" aria-label="Toggle navigation" name="search-input" data-search-index="search.json" id="search-input" placeholder="Search for" autocomplete="off">
@@ -76,7 +79,7 @@
 <p>The user is in charge of downloading ollama and providing networking configuration. We recommend using <a href="https://ollama.ai/blog/ollama-is-now-available-as-an-official-docker-image" class="external-link">the official docker image</a>, which trivializes this process.</p>
 <p>The following code downloads the default ollama image and runs an “ollama” container exposing the 11434 port.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> run <span class="at">-d</span> <span class="at">-v</span> ollama:/root/.ollama <span class="at">-p</span> 11434:11434 <span class="at">--name</span> ollama ollama/ollama</span></code></pre></div>
-<p>By default, this package will use <code>http://localhost:11434</code> as API host url. Although we provide methods to change this, only do it if you are asbolutely you sure of what it means.</p>
+<p>By default, this package will use <code>http://localhost:11434</code> as API host url. Although we provide methods to change this, only do it if you are absolutely sure of what it means.</p>
 </div>
 <div class="section level2">
 <h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
