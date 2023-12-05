@@ -41,7 +41,7 @@ The following code downloads the default ollama image and runs an "ollama" conta
 docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 ```
 
-By default, this package will use `http://localhost:11434` as API host url. Although we provide methods to change this, only do it if you are asbolutely you sure of what it means.
+By default, this package will use `http://localhost:11434` as API host url. Although we provide methods to change this, only do it if you are absolutely sure of what it means.
 
 ## Example
 
