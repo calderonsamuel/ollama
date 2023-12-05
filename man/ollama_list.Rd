@@ -9,7 +9,7 @@ ollama_list()
 ollama_list()
 }
 \value{
-A with fields \code{name}, \code{modified_at}, and \code{size} for each model.
+A list with fields \code{name}, \code{modified_at}, and \code{size} for each model.
 
 A with fields \code{name}, \code{modified_at}, and \code{size} for each model.
 }

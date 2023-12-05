@@ -10,6 +10,8 @@ ollama_show_model_info(model)
 }
 \arguments{
 \item{model}{Name of the model to show}
+
+\item{name}{Name of the model to show}
 }
 \value{
 A list.
