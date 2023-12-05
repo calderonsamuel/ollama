@@ -1,5 +1,5 @@
 ollama_api_url <- function() {
-    "http://localhost:11434/api"
+    Sys.getenv("OLLAMA_HOST", "http://localhost:11434/api")
 }
 
 ollama_set_task <- function(task) {
