@@ -4,16 +4,16 @@
 \alias{ollama_pull_model}
 \title{Pull a Model}
 \usage{
-ollama_pull_model(model, stream = TRUE)
+ollama_pull_model(name, insecure = FALSE, stream = TRUE)
 }
 \arguments{
-\item{stream}{(optional) if FALSE the response will be returned as a single
-response object, rather than a stream of objects}
-
 \item{name}{Name of the model to pull}
 
 \item{insecure}{(optional) allow insecure connections to the library.
 Only use this if you are pulling from your own library during development.}
+
+\item{stream}{(optional) if FALSE the response will be returned as a single
+response object, rather than a stream of objects}
 }
 \value{
 None

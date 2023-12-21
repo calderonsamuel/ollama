@@ -4,7 +4,7 @@
 \alias{ollama_delete_model}
 \title{Delete a Model}
 \usage{
-ollama_delete_model(model)
+ollama_delete_model(name)
 }
 \arguments{
 \item{name}{Model name to delete}
