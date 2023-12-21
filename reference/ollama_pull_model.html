@@ -57,23 +57,23 @@ and multiple calls will share the same download progress.</p>
 
     <div class="section level2">
     <h2 id="ref-usage">Usage<a class="anchor" aria-label="anchor" href="#ref-usage"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">ollama_pull_model</span><span class="op">(</span><span class="va">model</span>, stream <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">ollama_pull_model</span><span class="op">(</span><span class="va">name</span>, insecure <span class="op">=</span> <span class="cn">FALSE</span>, stream <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div class="section level2">
     <h2 id="arguments">Arguments<a class="anchor" aria-label="anchor" href="#arguments"></a></h2>
-    <dl><dt>stream</dt>
-<dd><p>(optional) if FALSE the response will be returned as a single
-response object, rather than a stream of objects</p></dd>
-
-
-<dt>name</dt>
+    <dl><dt>name</dt>
 <dd><p>Name of the model to pull</p></dd>
 
 
 <dt>insecure</dt>
 <dd><p>(optional) allow insecure connections to the library.
 Only use this if you are pulling from your own library during development.</p></dd>
+
+
+<dt>stream</dt>
+<dd><p>(optional) if FALSE the response will be returned as a single
+response object, rather than a stream of objects</p></dd>
 
 </dl></div>
     <div class="section level2">
